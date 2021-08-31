@@ -293,16 +293,19 @@ Compartir:
 	<script src="https://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
 	<script src="js/main.js" type="text/javascript"></script>
 <script>
-	function stateChange(newState) {
-  setTimeout('', 5000);
 
-  if(newState == -1) {
+	function stateChange(newState) {
+    setTimeout(function () {
+        if (newState == -1) {
+	
   $(window).load(function() {
     $('#loading').hide();
   });
-  }
-}
 
+        }
+    }, 5000);
+}
+	
 </script>
 </body>
 </html>
