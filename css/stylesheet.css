@@ -37,6 +37,17 @@ h3 {
 	transition-duration: 0.2s;
 }
 
+.bnt {
+	padding: 10px 25px;
+	background: #000000;
+	color: white;
+	display: inline-block;
+	border-radius: 2px;
+	transition-duration: 0.2s;
+}
+.bnt:hover {
+	background: #8c00ff;
+}
 .btn:hover {
 	background: #8c00ff;
 }
